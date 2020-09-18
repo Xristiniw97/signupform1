@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/7e411fbc71.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <title>Bootstrap Forms 3</title>
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="myNav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">ContactForm</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ml-3">
+                    <a href="index.html" class="nav-link ">ContactForm1</a>
+                </li>
+                <li class="nav-item  ml-3">
+                    <a href="ContactForm2.html" class="nav-link">ContactForm2</a>
+                </li>
+                <li class="nav-item  ml-3">
+                    <a href="ContactForm3.html" class="nav-link active">ContactForm3</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container" id="myContainer">
+        <div class="row" id="signuprow">
+            <div class="col-sm-4" id="left-side">
+                <h3 class="display-5 mt-5 text-center">Welcome to our Community!</h1>
+                <p class="lead text-center">Sign up for free now</p>
+            </div>    
+            <div class="col-sm-8" id="right-side">
+                <h3 class="text-center py-4">Sign Up Form</h3>
+                <form>
+                    <div class="form-group" >
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" id="fname" placeholder="Your First Name.." required>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" id="lname" placeholder="Your Last Name.." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email.." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Your Password.." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Confirm Password</label>
+                        <input type="text" class="form-control" id="lname" placeholder="Please confirm the password.." required>
+                    </div>
+                    <div class="text-center">
+                    <button type="submit" class="btn">Sign Up</button></div>
+                </form>
+            </div>
+          </div>
+          <br>
+    </div>
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script>
+    
+    //Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+</script>
+</body>
+</html>
